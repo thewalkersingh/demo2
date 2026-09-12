@@ -1,6 +1,6 @@
 package com.healix.healixserver.dto;
 
-import com.healix.healixserver.entity.type.BloodGroupType;
+import com.healix.healixserver.entity.enums.BloodGroupType;
 import lombok.Data;
 
 import java.time.LocalDate;

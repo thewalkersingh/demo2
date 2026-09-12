@@ -2,7 +2,7 @@ package com.healix.healixserver.repository;
 
 import com.healix.healixserver.dto.BloodGroupCountResponseEntity;
 import com.healix.healixserver.entity.Patient;
-import com.healix.healixserver.entity.type.BloodGroupType;
+import com.healix.healixserver.entity.enums.BloodGroupType;
 import jakarta.transaction.Transactional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

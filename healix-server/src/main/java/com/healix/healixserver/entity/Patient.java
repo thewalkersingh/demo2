@@ -1,6 +1,6 @@
 package com.healix.healixserver.entity;
 
-import com.healix.healixserver.entity.type.BloodGroupType;
+import com.healix.healixserver.entity.enums.BloodGroupType;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
@@ -14,8 +14,7 @@ import java.util.List;
 @ToString
 @Getter
 @Setter
-@Table(
-	name = "patient",
+@Table(name = "patient",
 	uniqueConstraints = {
 //                @UniqueConstraint(name = "unique_patient_email", columnNames = {"email"}),
 		@UniqueConstraint(name = "unique_patient_name_birthdate", columnNames = {"name", "birthDate"})

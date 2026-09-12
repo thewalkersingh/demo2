@@ -19,10 +19,10 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
         format_sql: false
-  sql:
-    init:
-      mode: always # Options: always, never, embedded
-      data-location: classpath:/data.sql
+#  sql:
+#    init:
+#      mode: always # Options: always, never, embedded
+#      data-location: classpath:/data.sql
 
 
 springdoc:

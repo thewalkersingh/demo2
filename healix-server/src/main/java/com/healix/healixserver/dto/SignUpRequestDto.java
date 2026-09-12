@@ -1,6 +1,6 @@
 package com.healix.healixserver.dto;
 
-import com.healix.healixserver.entity.type.RoleType;
+import com.healix.healixserver.entity.enums.RoleType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
